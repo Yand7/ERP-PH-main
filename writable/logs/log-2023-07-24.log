@@ -1,0 +1,32 @@
+ERROR - 2023-07-24 09:11:18 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-07-24 09:11:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/app/Views/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/app/Controllers/login.php(12): view('partial_login/h...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2023-07-24 09:11:19 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-07-24 09:11:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/app/Views/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/app/Controllers/login.php(12): view('partial_login/h...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/agendapkl-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}

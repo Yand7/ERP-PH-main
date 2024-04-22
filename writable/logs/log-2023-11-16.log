@@ -1,0 +1,20 @@
+CRITICAL - 2023-11-16 08:20:24 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_pe...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_pe...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/Data_pendaftaran.php(11): spl_autoload_call('App\\Models\\M_pe...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\Data_pendaftaran->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_pendaftaran))
+#6 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-11-16 23:30:02 --> Unknown column 'user.id_pendaftar' in 'where clause'
+CRITICAL - 2023-11-16 23:30:02 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Dashboard_pendaftaran.php(88): App\Models\M_pendaftaran->getUserData('7')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Dashboard_pendaftaran->pasca_dokumen()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard_pendaftaran))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

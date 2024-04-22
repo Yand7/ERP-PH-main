@@ -1,0 +1,624 @@
+CRITICAL - 2023-07-31 19:09:07 --> Too few arguments to function App\Models\M_siswa::join4(), 7 passed in C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php on line 15 and exactly 8 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php(15): App\Models\M_siswa->join4('data_siswa', 'data_guru', 'data_instruktur', 'data_jurusan', 'data_siswa.guru...', 'data_siswa.inst...', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-31 19:09:10 --> Too few arguments to function App\Models\M_siswa::join4(), 7 passed in C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php on line 15 and exactly 8 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php(15): App\Models\M_siswa->join4('data_siswa', 'data_guru', 'data_instruktur', 'data_jurusan', 'data_siswa.guru...', 'data_siswa.inst...', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-31 19:09:37 --> Too few arguments to function App\Models\M_siswa::join4(), 7 passed in C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php on line 15 and exactly 8 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php(15): App\Models\M_siswa->join4('data_siswa', 'data_guru', 'data_instruktur', 'data_jurusan', 'data_siswa.guru...', 'data_siswa.inst...', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:29:40 --> Unknown column 'data_guru.deleted_at' in 'where clause'
+CRITICAL - 2023-07-31 20:29:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(30): App\Models\M_guru->tampil('data_jurusan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->create()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:29:47 --> Unknown column 'data_guru.deleted_at' in 'where clause'
+CRITICAL - 2023-07-31 20:29:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(30): App\Models\M_guru->tampil('data_jurusan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->create()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:39:17 --> Table 'agendapkl.jurusan' doesn't exist
+CRITICAL - 2023-07-31 20:39:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:39:29 --> Table 'agendapkl.jurusan' doesn't exist
+CRITICAL - 2023-07-31 20:39:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:39:52 --> Table 'agendapkl.jurusan' doesn't exist
+CRITICAL - 2023-07-31 20:39:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:40:50 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:40:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:41:28 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:41:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:41:53 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:41:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-31 20:47:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:47:12 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:47:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-31 20:51:13 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\agendapkl-mazer\app\Models\M_guru.php on line 51
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Models\M_guru.php(51): CodeIgniter\Database\BaseBuilder->join('data_jurusan', NULL, 'left')
+#1 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jurus...', NULL)
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-07-31 20:51:13 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\agendapkl-mazer\app\Models\M_guru.php on line 51
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Models\M_guru.php(51): CodeIgniter\Database\BaseBuilder->join('data_jurusan', NULL, 'left')
+#1 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jurus...', NULL)
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-07-31 20:51:15 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\agendapkl-mazer\app\Models\M_guru.php on line 51
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Models\M_guru.php(51): CodeIgniter\Database\BaseBuilder->join('data_jurusan', NULL, 'left')
+#1 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jurus...', NULL)
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-07-31 20:51:22 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:51:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:51:44 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:51:44 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:51:44 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:51:44 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:51:45 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:51:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:52:04 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:52:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:52:41 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:52:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:52:42 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:52:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:52:42 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:52:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:52:42 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:52:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:55:16 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:55:16 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:55:38 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:55:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:52 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:52 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:52 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:52 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:52 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:53 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:53 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:58:56 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:58:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:59:50 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:59:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:59:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:59:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:59:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:59:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:59:55 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:59:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:59:56 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:59:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:59:56 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:59:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-31 20:59:56 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-31 20:59:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(14): App\Models\M_guru->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jabat...', 'data_guru.jurus...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-31 21:15:45 --> Class 'App\Controllers\M_absensi_kantor' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->menu_print_absensi_sekolah()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-31 21:15:54 --> Class 'App\Controllers\M_absensi_kantor' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->menu_print_absensi_sekolah()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-31 21:16:15 --> Class 'App\Controllers\M_absensi_kantor' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->menu_print_absensi_sekolah()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-31 21:18:48 --> Invalid file: data_absensi_sekolah/menu_jurusan_print.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(296): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->menu_print_absensi_sekolah()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 21:21:26 --> Invalid file: data_absensi_sekolah/menu_jurusan_print.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(296): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->menu_print_absensi_sekolah()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 21:21:33 --> Invalid file: data_absensi_sekolah/menu_jurusan_print.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(296): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->menu_print_absensi_sekolah()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 21:27:01 --> syntax error, unexpected '$uri' (T_VARIABLE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/side_me...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(313): view('partial/side_me...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->menu_print_rpl()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 21:40:27 --> Invalid file: data_absensi_sekolah/view.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(57): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->bdp()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 21:40:27 --> Invalid file: data_absensi_sekolah/view.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(57): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->bdp()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 21:40:27 --> Invalid file: data_absensi_sekolah/view.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(57): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->bdp()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 21:48:10 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\agendapkl-mazer\app\Models\M_kajur.php on line 51
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Models\M_kajur.php(51): CodeIgniter\Database\BaseBuilder->join('data_jurusan', NULL, 'left')
+#1 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_kajur.php(14): App\Models\M_kajur->join3('data_guru', 'level', 'data_jurusan', 'data_guru.jurus...', NULL)
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_kajur->index()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_kajur))
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-07-31 22:03:29 --> Class 'App\Controllers\Spreadsheet' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah_all->export_excel_absensi()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah_all))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-31 22:13:33 --> Class 'App\Controllers\M_absensi_sekolah' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_all->menu_print_rpl()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_all))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-31 22:32:42 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Views\data_agenda_all\print_pdf_view.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_agenda_all...', Array, true)
+#4 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_agenda_all.php(316): view('data_agenda_all...', Array)
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_all->export_pdf()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_all))
+#7 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-07-31 22:43:54 --> Unknown column 'catatan_1' in 'field list'
+CRITICAL - 2023-07-31 23:02:48 --> Invalid file: data_absensi_sekolah/view.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_guru.php(21): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_guru->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 23:03:29 --> Invalid file: data_absensi_sekolah/view.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_se...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_guru.php(21): view('data_absensi_se...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_guru->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 23:28:39 --> Class 'App\Controllers\M_absensi_sekolah' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_guru->menu_print()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_guru))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-31 23:29:19 --> Invalid file: data_absensi_guru/menu_print_agenda.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_gu...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_gu...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_agenda_guru.php(182): view('data_absensi_gu...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_guru->menu_print()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 23:29:37 --> Invalid file: data_absensi_guru/menu_print_absensi.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_gu...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_gu...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_guru.php(43): view('data_absensi_gu...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_guru->menu_print()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 23:32:56 --> Invalid file: data_absensi_guru/menu_print_agenda.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_gu...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_gu...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_agenda_guru.php(182): view('data_absensi_gu...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_guru->menu_print()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 23:33:00 --> Invalid file: data_absensi_guru/menu_print_agenda.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_gu...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_gu...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_agenda_guru.php(182): view('data_absensi_gu...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_guru->menu_print()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 23:33:10 --> Invalid file: data_absensi_guru/menu_print_agenda.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_gu...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_gu...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_agenda_guru.php(182): view('data_absensi_gu...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_guru->menu_print()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-31 23:33:12 --> Invalid file: data_absensi_guru/menu_print_agenda.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi_gu...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_gu...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_agenda_guru.php(182): view('data_absensi_gu...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_guru->menu_print()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

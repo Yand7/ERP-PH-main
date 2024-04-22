@@ -1,0 +1,100 @@
+ERROR - 2023-11-06 12:19:05 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-11-06 12:19:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Views/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/login.php(21): view('partial_login/h...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-11-06 12:24:21 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/Nilai.php(21): CodeIgniter\Model->__call('join8', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\nilai->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-11-06 12:27:24 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/Nilai.php(21): CodeIgniter\Model->__call('join8', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\nilai->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-11-06 12:27:30 --> You must set the database table to be used with your query.
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/Nilai.php(21): CodeIgniter\Model->__call('join8', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\nilai->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+ERROR - 2023-11-06 12:30:08 --> Table 'dbabsensi.pendaftaran' doesn't exist
+CRITICAL - 2023-11-06 12:30:08 --> Call to a member function getResult() on bool
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/Data_pendaftaran.php(12): App\Models\M_pendaftaran->getAllPData()
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\Data_pendaftaran->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_pendaftaran))
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2023-11-06 22:45:30 --> Class 'App\Controllers\M_level' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Landing_page->index()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing_page))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-11-06 22:45:55 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\perizinan-siswa\app\Controllers\Landing_page.php on line 13
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Landing_page.php(13): view('landing_page/he...', NULL)
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Landing_page->index()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing_page))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-06 22:46:00 --> Invalid file: landing_page/header.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing_page/he...')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('landing_page/he...', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Landing_page.php(13): view('landing_page/he...')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Landing_page->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing_page))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-06 22:46:15 --> Invalid file: landing_page/partial/header.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing_page/pa...')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('landing_page/pa...', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Landing_page.php(13): view('landing_page/pa...')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Landing_page->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing_page))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-11-06 22:46:26 --> Invalid file: landing_page/partial/header.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing_page/pa...')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('landing_page/pa...', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Landing_page.php(13): view('landing_page/pa...')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Landing_page->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing_page))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

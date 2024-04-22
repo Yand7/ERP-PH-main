@@ -1,0 +1,366 @@
+ERROR - 2023-10-09 19:05:23 --> Table 'absensi.website' doesn't exist
+CRITICAL - 2023-10-09 19:05:23 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#3 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-09 19:17:50 --> syntax error, unexpected 'validasi' (T_STRING)
+#0 C:\xampp\htdocs\perizinan-siswa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('login')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('login')
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 19:51:11 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2023-10-09 19:51:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_level.php(12): App\Models\M_level->tampil('level')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_level->index()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_level))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 21:12:44 --> Table 'absensi.website' doesn't exist
+CRITICAL - 2023-10-09 21:12:44 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#3 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-10-09 21:25:23 --> Table 'dbabsensi.data_kelas' doesn't exist
+CRITICAL - 2023-10-09 21:25:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(50): App\Models\M_siswa->tampil('data_kelas')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->menu()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 21:26:22 --> Table 'dbabsensi.data_kelas' doesn't exist
+CRITICAL - 2023-10-09 21:26:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(50): App\Models\M_siswa->tampil('data_kelas')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->menu()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 21:26:22 --> Table 'dbabsensi.data_kelas' doesn't exist
+CRITICAL - 2023-10-09 21:26:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(50): App\Models\M_siswa->tampil('data_kelas')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->menu()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 21:26:22 --> Table 'dbabsensi.data_kelas' doesn't exist
+CRITICAL - 2023-10-09 21:26:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(50): App\Models\M_siswa->tampil('data_kelas')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->menu()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 21:26:22 --> Table 'dbabsensi.data_kelas' doesn't exist
+CRITICAL - 2023-10-09 21:26:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(50): App\Models\M_siswa->tampil('data_kelas')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->menu()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 21:26:23 --> Table 'dbabsensi.data_kelas' doesn't exist
+CRITICAL - 2023-10-09 21:26:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(50): App\Models\M_siswa->tampil('data_kelas')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->menu()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 21:28:20 --> Table 'dbabsensi.data_kelas' doesn't exist
+CRITICAL - 2023-10-09 21:28:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(35): App\Models\M_siswa->tampil('data_kelas')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->menu()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 21:29:49 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('partial/side_me...', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(22): view('partial/side_me...')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 21:36:16 --> Class 'App\Models\M_model' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Tahun->index()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 21:38:08 --> Class 'App\Controllers\M_model' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 21:38:17 --> Invalid file: header.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(29): view('header')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 22:00:19 --> Class 'App\Controllers\M_model' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->tambah_siswa()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 22:00:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\perizinan-siswa\app\Views\data_siswa\create.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/crea...', Array, true)
+#4 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(43): view('data_siswa/crea...', Array)
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->tambah_siswa()
+#6 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-09 22:00:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\perizinan-siswa\app\Views\data_siswa\create.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/crea...', Array, true)
+#4 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(43): view('data_siswa/crea...', Array)
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->tambah_siswa()
+#6 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-09 22:00:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\perizinan-siswa\app\Views\data_siswa\create.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/crea...', Array, true)
+#4 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(43): view('data_siswa/crea...', Array)
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->tambah_siswa()
+#6 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-09 22:14:44 --> Too few arguments to function App\Controllers\Data_siswa::edit_siswa(), 0 passed in C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit_siswa()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 22:15:08 --> Too few arguments to function App\Controllers\Data_siswa::edit_siswa(), 0 passed in C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit_siswa()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 22:15:37 --> Invalid file: data_siswa/edit_siswa.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_siswa/edit...')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit...', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_siswa.php(109): view('data_siswa/edit...', Array)
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit_siswa('9')
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 22:33:40 --> Class 'App\Models\M_guru' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 22:33:50 --> Invalid file: user/guru.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/guru.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('user/guru', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(18): view('user/guru', Array)
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 22:34:07 --> Invalid file: user/guru.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/guru.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('user/guru', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(18): view('user/guru', Array)
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 22:34:18 --> Invalid file: data_guru/view.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_guru/view....')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('data_guru/view', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(18): view('data_guru/view', Array)
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 22:40:21 --> Call to undefined method App\Models\M_guru::getAllRombel
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(30): CodeIgniter\Model->__call('getAllRombel', Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->tambah_guru()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 22:41:03 --> Call to undefined method App\Models\M_guru::getAllRombel
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(30): CodeIgniter\Model->__call('getAllRombel', Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->tambah_guru()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 22:41:05 --> Call to undefined method App\Models\M_guru::getAllRombel
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(30): CodeIgniter\Model->__call('getAllRombel', Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->tambah_guru()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 22:41:37 --> Call to undefined method App\Models\M_guru::getAllRombel
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(30): CodeIgniter\Model->__call('getAllRombel', Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->tambah_guru()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 22:42:16 --> Call to undefined method App\Models\M_guru::getAllRombelDetails
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Data_guru.php(13): CodeIgniter\Model->__call('getAllRombelDet...', Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-09 22:44:04 --> Column 'nis' cannot be null
+ERROR - 2023-10-09 22:44:58 --> Column 'nis' cannot be null
+CRITICAL - 2023-10-09 22:48:45 --> Class 'App\Models\M_model' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Ruangan->jenjang()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 22:49:17 --> Invalid file: header.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Ruangan.php(39): view('header')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Ruangan->jenjang()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 23:16:05 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('partial/side_me...', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Dashboard.php(20): view('partial/side_me...')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 23:18:32 --> Invalid file: menuutama.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menuutama.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('menuutama', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Tahun.php(14): view('menuutama')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Tahun->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 23:21:31 --> Invalid file: menuutama.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menuutama.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('menuutama', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Blok.php(14): view('menuutama')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Blok->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blok))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 23:22:54 --> Invalid file: menuutama.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menuutama.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('menuutama', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Blok.php(14): view('menuutama')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Blok->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blok))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 23:26:24 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\perizinan-siswa\app\Controllers\Tahun.php on line 57
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Tahun.php(57): view('partial_dashboa...', NULL)
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Tahun->edit_tahun('3')
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 23:34:30 --> Class 'App\Models\Amodel' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Absen->index()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 23:39:04 --> Invalid file: absen_view.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('absen_view.php')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('absen_view', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Absen.php(62): view('absen_view', Array)
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Absen->index()
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

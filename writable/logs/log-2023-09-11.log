@@ -1,0 +1,48 @@
+ERROR - 2023-09-11 12:54:35 --> Error connecting to the database: Unknown database 'manajemen_ekstrakulikuler'
+CRITICAL - 2023-09-11 12:54:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'manajemen_ekstrakulikuler'
+#0 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/app/Views/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/app/Controllers/login.php(21): view('partial_login/h...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2023-09-11 12:54:38 --> Error connecting to the database: Unknown database 'manajemen_ekstrakulikuler'
+CRITICAL - 2023-09-11 12:54:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'manajemen_ekstrakulikuler'
+#0 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/app/Views/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/app/Controllers/login.php(21): view('partial_login/h...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-09-11 13:12:01 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/app/Views/data_ekstrakulikuler/create.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 66, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Common.php(1089): CodeIgniter\View\View->render('data_ekstrakuli...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/app/Controllers/Data_ekstrakulikuler.php(36): view('data_ekstrakuli...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(832): App\Controllers\Data_ekstrakulikuler->create()
+#6 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_ekstrakulikuler))
+#7 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/manajemen-ekstrakulikuler/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2023-09-11 13:18:17 --> Column 'username' cannot be null
+ERROR - 2023-09-11 13:18:17 --> Column 'nama' cannot be null
+ERROR - 2023-09-11 13:21:54 --> Column 'username' cannot be null
+ERROR - 2023-09-11 13:21:54 --> Column 'nama' cannot be null

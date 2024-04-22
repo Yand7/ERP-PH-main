@@ -1,0 +1,52 @@
+CRITICAL - 2023-08-29 13:29:04 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Views/login/view.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 133, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Common.php(1089): CodeIgniter\View\View->render('login/view', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Controllers/login.php(13): view('login/view')
+#5 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2023-08-29 13:44:30 --> Invalid file: partial_login/header_datatable.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/h...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Controllers/Login.php(12): view('partial_login/h...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+ERROR - 2023-08-29 20:24:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-08-29 20:24:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Views\partial\header_datatable.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#6 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Login.php(12): view('partial/header_...', Array)
+#7 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-29 20:59:04 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Views\login\view.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Common.php(1089): CodeIgniter\View\View->render('login/view', Array, true)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Login.php(13): view('login/view')
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

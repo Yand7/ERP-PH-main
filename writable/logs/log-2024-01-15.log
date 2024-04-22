@@ -1,0 +1,483 @@
+<<<<<<< HEAD
+ERROR - 2024-01-15 09:22:49 --> Error connecting to the database: Unknown database 'dbabsensi'
+CRITICAL - 2024-01-15 09:22:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Views\partial_login\header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#12 {main}
+ERROR - 2024-01-15 09:23:52 --> Error connecting to the database: Unknown database 'dbabsensi'
+CRITICAL - 2024-01-15 09:23:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Views\agendapkl\partial_login\header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('agendapkl/parti...', Array, true)
+#6 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\agendapkl\Login.php(20): view('agendapkl/parti...', Array)
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\agendapkl\Login->index()
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\agendapkl\Login))
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#12 {main}
+ERROR - 2024-01-15 09:25:40 --> Error connecting to the database: Unknown database 'dbabsensi'
+CRITICAL - 2024-01-15 09:25:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Models\M_pendaftaran.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\data_pendaftaran.php(188): App\Models\M_pendaftaran->tampil('pendaftaran')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\Data_pendaftaran->pendaftaran_baru()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_pendaftaran))
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#9 {main}
+CRITICAL - 2024-01-15 09:58:56 --> Class 'App\Controllers\uangkas\BaseController' not found
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(518): include_once()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('uangkas')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('uangkas')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#7 {main}
+CRITICAL - 2024-01-15 09:59:07 --> Class 'App\Controllers\uangkas\BaseController' not found
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(518): include_once()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('uangkas')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('uangkas')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#7 {main}
+CRITICAL - 2024-01-15 09:59:08 --> Class 'App\Controllers\uangkas\BaseController' not found
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(518): include_once()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('uangkas')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('uangkas')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#7 {main}
+CRITICAL - 2024-01-15 09:59:34 --> Class 'App\Controllers\uangkas\BaseController' not found
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(518): include_once()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('uangkas')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('uangkas')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#7 {main}
+ERROR - 2024-01-15 13:29:18 --> Error connecting to the database: Unknown database 'dbabsensi'
+CRITICAL - 2024-01-15 13:29:18 --> Uncaught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi' in C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php:407
+Stack trace:
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Views\errors\html\error_404.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Exceptions.php(234): include('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-01-15 13:32:31 --> Error connecting to the database: Unknown database 'dbabsensi'
+CRITICAL - 2024-01-15 13:32:31 --> Uncaught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi' in C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php:407
+Stack trace:
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Views\errors\html\error_404.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Exceptions.php(234): include('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-01-15 13:34:20 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-15 13:34:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Models\piketm\M_model.php(42): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\piket\Home.php(44): App\Models\piketm\M_model->getWhere2('user', Array)
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\piket\Home->aksi_login()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#9 {main}
+ERROR - 2024-01-15 13:34:29 --> Error connecting to the database: Unknown database 'dbabsensi'
+CRITICAL - 2024-01-15 13:34:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Views\partial_login\header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#12 {main}
+ERROR - 2024-01-15 13:36:53 --> Error connecting to the database: Unknown database 'dbabsensi'
+CRITICAL - 2024-01-15 13:36:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Views\partial_login\header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#12 {main}
+CRITICAL - 2024-01-15 13:51:21 --> Class 'App\Models\uangkas\M_model' not found
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->aksi_login()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#5 {main}
+ERROR - 2024-01-15 13:52:24 --> Unknown column 'id_user_user' in 'where clause'
+CRITICAL - 2024-01-15 13:52:24 --> Call to a member function getRowArray() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(80): App\Models\uangkas\M_model->getarray('siswa', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->aksi_login()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 13:52:46 --> Unknown column 'id_user_user' in 'where clause'
+CRITICAL - 2024-01-15 13:52:46 --> Call to a member function getRowArray() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(80): App\Models\uangkas\M_model->getarray('siswa', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->aksi_login()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:02:43 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:02:43 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:05:11 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:05:11 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:05:33 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:05:33 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:05:50 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:05:50 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:05:51 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:05:51 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-15 14:06:12 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Views\uangkas\header.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\Admini...', 681, Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/header', Array, true)
+#4 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(285): view('uangkas/header', Array)
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+ERROR - 2024-01-15 14:06:41 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:06:41 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-15 14:07:44 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Views\uangkas\header.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\Admini...', 681, Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/header', Array, true)
+#4 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(285): view('uangkas/header', Array)
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2024-01-15 14:10:33 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Views\uangkas\header.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\Admini...', 681, Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/header', Array, true)
+#4 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(285): view('uangkas/header', Array)
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+ERROR - 2024-01-15 14:11:15 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:11:15 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:14:13 --> Table 'dbuang.pengguna' doesn't exist
+CRITICAL - 2024-01-15 14:14:13 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(283): App\Models\uangkas\M_model->tampil('pengguna')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-15 14:15:43 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Views\uangkas\header.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\Admini...', 681, Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/header', Array, true)
+#4 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(285): view('uangkas/header', Array)
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2024-01-15 14:19:07 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Views\uangkas\header.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\Admini...', 681, Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/header', Array, true)
+#4 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(285): view('uangkas/header', Array)
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+ERROR - 2024-01-15 14:48:07 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-15 14:48:07 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1709): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:48:58 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-15 14:48:58 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1709): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:48:59 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-15 14:48:59 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1709): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:48:59 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-15 14:48:59 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1709): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:49:12 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-15 14:49:12 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1709): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-15 14:49:24 --> Invalid argument supplied for foreach()
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Views\uangkas\kelas_fs.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Admini...', 25, Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/kelas_f...', Array, true)
+#4 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1718): view('uangkas/kelas_f...')
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+ERROR - 2024-01-15 14:49:30 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-15 14:49:30 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1709): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-15 14:49:58 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-15 14:49:58 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1709): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+=======
+ERROR - 2024-01-15 13:11:44 --> Error connecting to the database: Connection refused
+CRITICAL - 2024-01-15 13:11:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Views/agendapkl/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Common.php(1089): CodeIgniter\View\View->render('agendapkl/parti...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Agendapkl/Login.php(20): view('agendapkl/parti...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\agendapkl\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\agendapkl\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2024-01-15 13:17:19 --> Invalid file: filter_Ledger.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter_Ledger.p...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Common.php(1089): CodeIgniter\View\View->render('filter_Ledger', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(26): view('filter_Ledger', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2024-01-15 13:17:31 --> Invalid file: filter_Ledger.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter_Ledger.p...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Common.php(1089): CodeIgniter\View\View->render('filter_Ledger', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(26): view('filter_Ledger', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2024-01-15 13:40:45 --> Class 'App\Controllers\Fill' not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2024-01-15 13:50:48 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 74, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2024-01-15 13:51:27 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 74, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2024-01-15 13:53:12 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 74, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2024-01-15 13:53:14 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 74, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2024-01-15 13:53:57 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 74, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2024-01-15 13:54:00 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 74, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2024-01-15 13:55:27 --> Invalid argument supplied for foreach()
+#0 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/app/Controllers/Ledger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/X...', 74, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(832): App\Controllers\Ledger->print_nilai()
+#2 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ledger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/ERP-PH/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+>>>>>>> 4a73042259670dc402da759d4a670145f1365646
+#6 {main}

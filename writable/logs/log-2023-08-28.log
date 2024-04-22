@@ -1,0 +1,19 @@
+CRITICAL - 2023-08-28 08:28:48 --> Invalid file: partial/header_login.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/header_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Controllers/Data_pengguna.php(44): view('partial/header_...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Data_pengguna->sign_up()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_pengguna))
+#5 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-08-28 08:37:17 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 60, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Controllers/Login.php(60): file_get_contents('https://www.goo...', false, Resource id #10)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Login->aksi_login()
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}

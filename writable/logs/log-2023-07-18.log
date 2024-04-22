@@ -1,0 +1,443 @@
+CRITICAL - 2023-07-18 01:32:24 --> Invalid file: partial/header_login.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/header_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(12): view('partial/header_...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-07-18 01:33:45 --> Invalid file: partial/header_login.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/header_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(12): view('partial/header_...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+ERROR - 2023-07-18 01:33:59 --> Table 'agendapkl.perusahaan' doesn't exist
+CRITICAL - 2023-07-18 01:33:59 --> Call to a member function getRow() on bool
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(210): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(12): view('partial_login/h...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2023-07-18 01:35:29 --> Table 'agendapkl.perusahaan' doesn't exist
+CRITICAL - 2023-07-18 01:35:29 --> Call to a member function getRow() on bool
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(210): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(12): view('partial_login/h...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2023-07-18 01:39:28 --> Invalid file: partial_login/footer.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(14): view('partial_login/f...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-07-18 01:39:44 --> Invalid file: partial_login/footer.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(14): view('partial_login/f...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-07-18 01:45:20 --> Invalid file: partial_login/footer.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(14): view('partial_login/f...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-07-18 01:45:24 --> Invalid file: partial_login/footer.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(14): view('partial_login/f...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-07-18 01:46:35 --> Invalid file: partial_login/footer.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/login.php(14): view('partial_login/f...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-07-18 01:46:39 --> Invalid file: partial_login/footer.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/app/Controllers/Login.php(14): view('partial_login/f...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/agenda-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-07-18 09:44:29 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:54 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:56 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:56 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:56 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:56 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:57 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:57 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:47:57 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:49:02 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:49:57 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:50:02 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:50:22 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:50:50 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:52:36 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:54:13 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:57:33 --> Invalid file: partial/header_dashboard.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/header_...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Dashboard.php(19): view('partial/header_...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:59:05 --> Invalid file: partial/header_dashboard.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/header_...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Dashboard.php(19): view('partial/header_...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 09:59:39 --> Invalid file: partial_dashboard/side_menu.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_dashboa...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_dashboa...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Dashboard.php(20): view('partial_dashboa...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-07-18 10:29:03 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-18 10:29:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(13): App\Models\M_guru->join2('karyawan', 'jabatan', 'karyawan.jabata...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-18 10:29:57 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-18 10:29:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(13): App\Models\M_guru->join2('karyawan', 'jabatan', 'karyawan.jabata...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-18 10:42:52 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-07-18 10:42:52 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-07-18 10:46:08 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-07-18 10:46:08 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-07-18 10:51:39 --> Table 'agendapkl.jabatan' doesn't exist
+CRITICAL - 2023-07-18 10:51:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(30): App\Models\M_guru->tampil('jabatan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->create()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-18 10:51:47 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Views\data_guru\create.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_guru/creat...', Array, true)
+#4 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(35): view('data_guru/creat...', Array)
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->create()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#7 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-07-18 23:04:45 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2023-07-18 11:07:46 --> syntax error, unexpected ''created_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_guru')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_guru')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-18 23:08:13 --> Column 'user_create' cannot be null
+ERROR - 2023-07-18 23:09:20 --> Column 'user_create' cannot be null
+ERROR - 2023-07-18 23:09:20 --> Column 'user' cannot be null
+ERROR - 2023-07-18 11:16:05 --> Table 'agendapkl.jabatan' doesn't exist
+CRITICAL - 2023-07-18 11:16:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_guru.php(114): App\Models\M_guru->tampil('jabatan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_guru->edit('6')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_guru))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-18 21:23:39 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 21:23:54 --> Invalid file: partial_login/footer.php
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_login/f...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/f...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Login.php(14): view('partial_login/f...')
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-18 21:34:36 --> Class 'App\Models\M_kesiswaan' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_kesiswaan->index()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_kesiswaan))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-18 21:58:13 --> Class 'App\Models\M_kajur' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_kajur->index()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_kajur))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-18 22:12:35 --> Class 'App\Models\M_instruktur' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_instruktur->index()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_instruktur))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-18 22:14:41 --> Class 'App\Models\M_instruktur' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_instruktur->index()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_instruktur))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-18 22:48:56 --> Class 'App\Models\M_siswa' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-18 22:52:41 --> Too few arguments to function App\Models\M_siswa::join3(), 5 passed in C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php on line 14 and exactly 6 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php(14): App\Models\M_siswa->join3('data_siswa', 'data_guru', 'data_instruktur', 'data_siswa.guru...', 'data_siswa.inst...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-18 22:53:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `data_siswa`.`deleted_at` IS NULL' at line 5
+CRITICAL - 2023-07-18 22:53:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php(14): App\Models\M_siswa->join3('data_siswa', 'data_guru', 'data_instruktur', 'data_siswa.guru...', 'data_siswa.inst...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-18 23:13:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Views\data_siswa\create.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/crea...', Array, true)
+#4 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_siswa.php(37): view('data_siswa/crea...', Array)
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_siswa->create()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

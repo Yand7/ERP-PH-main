@@ -1,0 +1,140 @@
+ERROR - 2024-01-19 18:14:02 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-19 18:14:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Models\piketm\M_model.php(37): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(48): App\Models\piketm\M_model->getWhere('user', Array)
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 18:14:49 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-19 18:14:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Models\piketm\M_model.php(37): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(48): App\Models\piketm\M_model->getWhere('user', Array)
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 18:15:00 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-19 18:15:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-19 18:15:30 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-19 18:15:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-19 21:50:58 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-19 21:50:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH\app\Models\piketm\M_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH\app\Controllers\piket\Home.php(387): App\Models\piketm\M_model->tampil('rombel')
+#4 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\piket\Home->laporan()
+#5 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 21:50:58 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-19 21:50:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH\app\Models\piketm\M_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH\app\Controllers\piket\Home.php(387): App\Models\piketm\M_model->tampil('rombel')
+#4 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\piket\Home->laporan()
+#5 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 21:50:58 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-19 21:50:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH\app\Models\piketm\M_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH\app\Controllers\piket\Home.php(387): App\Models\piketm\M_model->tampil('rombel')
+#4 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\piket\Home->laporan()
+#5 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 21:51:03 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-19 21:51:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH\app\Models\piketm\M_model.php(37): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ERP-PH\app\Controllers\piket\Home.php(95): App\Models\piketm\M_model->getWhere('user', Array)
+#4 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 21:51:35 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-19 21:51:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH\app\Models\piketm\M_model.php(37): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ERP-PH\app\Controllers\piket\Home.php(48): App\Models\piketm\M_model->getWhere('user', Array)
+#4 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 21:52:54 --> Error connecting to the database: Unknown database 'dbabsensi1'
+CRITICAL - 2024-01-19 21:52:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi1'
+#0 C:\xampp\htdocs\ERP-PH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH\app\Models\landinpage\M_Model.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ERP-PH\app\Controllers\landinpage\Home.php(30): App\Models\landinpage\M_model->getWhere2('user', Array)
+#4 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->aksi_login()
+#5 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#6 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-19 22:07:44 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-19 22:07:44 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-19 22:08:28 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-19 22:08:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

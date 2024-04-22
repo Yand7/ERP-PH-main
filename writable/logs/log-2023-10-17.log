@@ -1,0 +1,7 @@
+CRITICAL - 2023-10-17 13:18:02 --> Class 'App\Controllers\IOFactory' not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\Data_siswa->import_excel()
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}

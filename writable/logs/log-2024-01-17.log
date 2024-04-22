@@ -1,0 +1,286 @@
+CRITICAL - 2024-01-17 08:41:41 --> Invalid file: header.php
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(334): view('header', Array)
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->detail_users('1')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+ERROR - 2024-01-17 08:45:14 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-17 08:45:14 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(534): App\Models\uangkas\M_model->fusionOderBy('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-17 08:47:50 --> syntax error, unexpected '?>'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/detail_...', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(336): view('uangkas/detail_...')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->detail_users('1')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+ERROR - 2024-01-17 08:57:54 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-17 08:57:54 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(534): App\Models\uangkas\M_model->fusionOderBy('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-17 09:02:26 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-17 09:02:26 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(557): App\Models\uangkas\M_model->fusion('kelas', 'user', 'kelas.maker_kel...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->add_class()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-17 09:05:40 --> Unknown column 'maker_kelas' in 'field list'
+<<<<<<< HEAD
+CRITICAL - 2024-01-17 10:33:57 --> syntax error, unexpected '<<' (T_SL), expecting ']'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Admini...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(251): spl_autoload_call('Config\\Database')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(69): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#10 C:\Users\Administrator\Desktop\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#11 C:\Users\Administrator\Desktop\ERP-PH\system\Filters\DebugToolbar.php(40): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#12 C:\Users\Administrator\Desktop\ERP-PH\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#13 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('uangkas/home/us...', 'after')
+#14 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#17 {main}
+CRITICAL - 2024-01-17 10:34:26 --> syntax error, unexpected '<<' (T_SL), expecting ']'
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Admini...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(251): spl_autoload_call('Config\\Database')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(69): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#10 C:\Users\Administrator\Desktop\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#11 C:\Users\Administrator\Desktop\ERP-PH\system\Filters\DebugToolbar.php(40): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#12 C:\Users\Administrator\Desktop\ERP-PH\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#13 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('uangkas/home/us...', 'after')
+#14 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+=======
+CRITICAL - 2024-01-17 09:42:31 --> syntax error, unexpected '<<' (T_SL), expecting ']'
+#0 C:\Users\Darrell\Documents\ERP-PH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Darrel...')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(251): spl_autoload_call('Config\\Database')
+#4 C:\Users\Darrell\Documents\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(69): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#8 C:\Users\Darrell\Documents\ERP-PH\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\Users\Darrell\Documents\ERP-PH\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#10 C:\Users\Darrell\Documents\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#11 C:\Users\Darrell\Documents\ERP-PH\system\Filters\DebugToolbar.php(40): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#12 C:\Users\Darrell\Documents\ERP-PH\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#13 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#14 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#17 {main}
+CRITICAL - 2024-01-17 09:44:33 --> syntax error, unexpected '===' (T_IS_IDENTICAL), expecting ']'
+#0 C:\Users\Darrell\Documents\ERP-PH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Darrel...')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(251): spl_autoload_call('Config\\Database')
+#4 C:\Users\Darrell\Documents\ERP-PH\system\Debug\Toolbar\Collectors\Database.php(69): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#8 C:\Users\Darrell\Documents\ERP-PH\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\Users\Darrell\Documents\ERP-PH\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#10 C:\Users\Darrell\Documents\ERP-PH\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#11 C:\Users\Darrell\Documents\ERP-PH\system\Filters\DebugToolbar.php(40): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#12 C:\Users\Darrell\Documents\ERP-PH\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#13 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#14 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+>>>>>>> 56bbade0a82a7dacd3ca62f87d416eeebd218585
+#17 {main}
+ERROR - 2024-01-17 10:29:34 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-17 10:29:34 --> Call to a member function getResult() on bool
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\uangkas\Home.php(280): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#6 {main}
+ERROR - 2024-01-17 10:42:34 --> Unknown column 'ketua.nama' in 'field list'
+CRITICAL - 2024-01-17 10:42:34 --> Call to a member function getResult() on bool
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#6 {main}
+CRITICAL - 2024-01-17 10:48:09 --> Invalid file: header.php
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Kandidat.php(19): view('header')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#8 {main}
+CRITICAL - 2024-01-17 10:55:32 --> Class 'App\Models\K_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/v_vote', Array, true)
+#3 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Vote.php(19): view('voting/v_vote', Array)
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Vote->index()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Vote))
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#9 {main}
+CRITICAL - 2024-01-17 10:58:05 --> Class 'App\Models\K_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/v_vote', Array, true)
+#3 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Vote.php(19): view('voting/v_vote', Array)
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Vote->index()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Vote))
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#9 {main}
+CRITICAL - 2024-01-17 10:59:24 --> Class 'App\Models\K_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/v_vote', Array, true)
+#3 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Vote.php(19): view('voting/v_vote', Array)
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Vote->index()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Vote))
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#9 {main}
+CRITICAL - 2024-01-17 11:01:38 --> Invalid file: header.php
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Hasil.php(21): view('header')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Hasil->index()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Hasil))
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#8 {main}
+CRITICAL - 2024-01-17 11:33:40 --> Invalid file: voting/ambah_kandidat.php
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('voting/ambah_ka...')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/ambah_ka...', Array, true)
+#2 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Kandidat.php(37): view('voting/ambah_ka...', Array)
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->tambah()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#8 {main}
+CRITICAL - 2024-01-17 11:36:50 --> Table 'dbabsensi.kandidat' doesn't exist
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Views\voting\diagram.php(52): mysqli_query(Object(mysqli), 'SELECT * FROM k...')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include('C:\\Users\\Darrel...')
+#2 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/diagram', Array, true)
+#4 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Hasil.php(131): view('voting/diagram')
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Hasil->diagram()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Hasil))
+#7 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#10 {main}
+ERROR - 2024-01-17 11:40:01 --> Table 'dbabsensi1.dbabsensi1' doesn't exist
+CRITICAL - 2024-01-17 11:40:01 --> Call to a member function getRow() on bool
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Hasil.php(118): App\Models\voting\V_model->getStatusSelesai()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Hasil->diagram()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Hasil))
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#6 {main}
+CRITICAL - 2024-01-17 11:44:08 --> Table 'dbabsensi.kandidat' doesn't exist
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Views\voting\diagram.php(52): mysqli_query(Object(mysqli), 'SELECT * FROM k...')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include('C:\\Users\\Darrel...')
+#2 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/diagram', Array, true)
+#4 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Hasil.php(131): view('voting/diagram')
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Hasil->diagram()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Hasil))
+#7 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#10 {main}
+CRITICAL - 2024-01-17 11:47:39 --> Incorrect database name 'dbabsensi1 '
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Views\voting\diagram.php(51): mysqli_connect('localhost', 'root', '', 'dbabsensi1 ')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include('C:\\Users\\Darrel...')
+#2 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/diagram', Array, true)
+#4 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Hasil.php(131): view('voting/diagram')
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Hasil->diagram()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Hasil))
+#7 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#10 {main}
+CRITICAL - 2024-01-17 11:48:09 --> Incorrect database name 'dbabsensi '
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Views\voting\diagram.php(51): mysqli_connect('localhost', 'root', '', 'dbabsensi ')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include('C:\\Users\\Darrel...')
+#2 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/diagram', Array, true)
+#4 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Hasil.php(131): view('voting/diagram')
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Hasil->diagram()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Hasil))
+#7 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#10 {main}
+CRITICAL - 2024-01-17 11:48:20 --> Incorrect database name 'vote '
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Views\voting\diagram.php(51): mysqli_connect('localhost', 'root', '', 'vote ')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(210): include('C:\\Users\\Darrel...')
+#2 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('voting/diagram', Array, true)
+#4 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Hasil.php(131): view('voting/diagram')
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Hasil->diagram()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Hasil))
+#7 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#10 {main}
+CRITICAL - 2024-01-17 12:04:54 --> Invalid file: header.php
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Vote.php(148): view('header')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Vote->store()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Vote))
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#8 {main}

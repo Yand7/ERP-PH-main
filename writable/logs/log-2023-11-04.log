@@ -1,0 +1,26 @@
+ERROR - 2023-11-04 22:50:27 --> Unknown column 'level.id_level' in 'on clause'
+CRITICAL - 2023-11-04 22:50:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(16): App\Models\M_model->join5('nilai', 'siswa', 'blok', 'mapel', 'guru', 'nilai.siswa=lev...', 'nilai.blok=blok...', 'nilai.mapel=map...', 'nilai.guru=guru...')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->index()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-04 22:51:11 --> Unknown column 'level.id_level' in 'on clause'
+CRITICAL - 2023-11-04 22:51:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(16): App\Models\M_model->join5('nilai', 'siswa', 'blok', 'mapel', 'guru', 'nilai.siswa=lev...', 'nilai.blok=blok...', 'nilai.mapel=map...', 'nilai.guru=guru...')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->index()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-04 22:55:40 --> Too few arguments to function App\Models\M_model::join6(), 10 passed in C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php on line 17 and exactly 11 expected
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(17): App\Models\M_model->join6('nilai', 'siswa', 'blok', 'mapel', 'guru', 'rombel', 'nilai.siswa=sis...', 'nilai.blok=blok...', 'nilai.mapel=map...', 'nilai.guru=guru...')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->index()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

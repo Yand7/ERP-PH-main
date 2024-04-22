@@ -1,0 +1,1085 @@
+ERROR - 2023-09-10 10:04:55 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 10:04:55 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 10:06:44 --> Unknown column 'favicon_perusahaan' in 'field list'
+CRITICAL - 2023-09-10 10:06:44 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 10:07:04 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-10 10:08:25 --> Unknown column 'NIK' in 'where clause'
+CRITICAL - 2023-09-10 10:08:25 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Login.php(83): App\Models\M_login->getLoginWithPassword('user', 'Admin', '1')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Login->aksi_login()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 10:09:24 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 10:09:24 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial_dashboa...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Dashboard.php(20): view('partial_dashboa...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 10:09:54 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 10:09:54 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial/side_me...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Dashboard.php(21): view('partial/side_me...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 10:13:46 --> Table 'manajemen_ekstrakulikuler.data_pengguna' doesn't exist
+CRITICAL - 2023-09-10 10:13:46 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_pengguna.php(16): App\Models\M_pengguna->getWhere('data_pengguna', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_pengguna->index('1')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_pengguna))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 11:50:52 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 11:50:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(13): App\Models\M_perusahaan->tampil('perusahaan')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 12:11:41 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:11:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(13): App\Models\M_perusahaan->tampil('perusahaan')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 12:11:44 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:11:44 --> Uncaught Error: Call to a member function getRow() on bool in C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\errors\html\error_404.php:15
+Stack trace:
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(234): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-10 12:11:51 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:11:51 --> Uncaught Error: Call to a member function getRow() on bool in C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\errors\html\error_404.php:15
+Stack trace:
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(234): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-10 12:11:54 --> syntax error, unexpected ''user_create'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 12:11:55 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:11:55 --> Uncaught Error: Call to a member function getRow() on bool in C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\errors\html\error_404.php:15
+Stack trace:
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(234): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-10 12:12:23 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:12:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(13): App\Models\M_perusahaan->tampil('perusahaan')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 12:17:03 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:17:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(13): App\Models\M_website->tampil('perusahaan')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 12:17:49 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:17:49 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(15): view('partial/header_...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 12:17:50 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:17:50 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(15): view('partial/header_...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 12:17:50 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:17:50 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(15): view('partial/header_...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 12:17:50 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:17:50 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(15): view('partial/header_...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 12:17:50 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 12:17:50 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('partial/header_...', Array, true)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(15): view('partial/header_...', Array)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 12:19:29 --> Too few arguments to function App\Controllers\Data_website::edit(), 0 passed in C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->edit()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-09-10 13:09:04 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 13:09:04 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_website.php(98): App\Models\M_website->getWhere('perusahaan', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_website->edit('1')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_website))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:18:09 --> Table 'manajemen_ekstrakulikuler.perusahaan' doesn't exist
+CRITICAL - 2023-09-10 13:18:09 --> Uncaught Error: Call to a member function getRow() on bool in C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\errors\html\error_404.php:15
+Stack trace:
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(234): include()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-10 13:34:28 --> syntax error, unexpected ''user_create'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 13:35:05 --> Class 'App\Models\M_siswa' not found
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-09-10 13:35:39 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:40 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:40 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:40 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:40 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:40 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:40 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:41 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:41 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:41 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 13:35:41 --> Table 'manajemen_ekstrakulikuler.data_jurusan' doesn't exist
+CRITICAL - 2023-09-10 13:35:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(19): App\Models\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:15:27 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:15:47 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:15:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:16:02 --> Invalid file: data_siswa/view.php
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_siswa/view...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/view', Array, true)
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(26): view('data_siswa/view', Array)
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-10 14:16:11 --> Unknown column 'data_siswadeleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:12 --> Unknown column 'data_siswadeleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:12 --> Unknown column 'data_siswadeleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:12 --> Unknown column 'data_siswadeleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:13 --> Unknown column 'data_siswadeleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:14 --> Unknown column 'data_siswadeleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:14 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:16:20 --> syntax error, unexpected ''.deleted_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_si...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_si...')
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(17): spl_autoload_call('App\\Models\\M_si...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 14:16:20 --> syntax error, unexpected ''.deleted_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_si...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_si...')
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(17): spl_autoload_call('App\\Models\\M_si...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 14:16:20 --> syntax error, unexpected ''.deleted_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_si...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_si...')
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(17): spl_autoload_call('App\\Models\\M_si...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 14:16:20 --> syntax error, unexpected ''.deleted_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_si...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_si...')
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(17): spl_autoload_call('App\\Models\\M_si...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 14:16:20 --> syntax error, unexpected ''.deleted_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_si...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_si...')
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(17): spl_autoload_call('App\\Models\\M_si...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 14:16:21 --> syntax error, unexpected ''.deleted_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_si...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_si...')
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(17): spl_autoload_call('App\\Models\\M_si...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-10 14:16:21 --> syntax error, unexpected ''.deleted_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_si...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_si...')
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(17): spl_autoload_call('App\\Models\\M_si...')
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-10 14:16:23 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:23 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:24 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:24 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:24 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:16:24 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:16:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:20 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:20 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:20 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:20 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:21 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:21 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:24 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:52 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:52 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:53 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:17:53 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:17:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:09 --> Unknown column 'data_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:18:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:10 --> Unknown column 'data_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:18:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:10 --> Unknown column 'data_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:18:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:10 --> Unknown column 'data_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:18:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:38 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:18:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:38 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:18:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:38 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:18:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:38 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:18:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:38 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:18:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:38 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:18:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:18:39 --> Unknown column 'data_ekstrakulikuler.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:18:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(20): App\Models\M_siswa->join3('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'data_siswa.kela...', 'data_siswa.eksk...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:04 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:04 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:04 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:04 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:04 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:05 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:05 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:05 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:05 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:05 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:23:05 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_siswa')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_siswa')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:23:11 --> Unknown column 'jenis_kelamin.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:23:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(21): App\Models\M_siswa->join4('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'jenis_kelamin', 'data_siswa.kela...', 'data_siswa.eksk...', 'data_siswa.jeni...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:23:11 --> Unknown column 'jenis_kelamin.deleted_at' in 'where clause'
+CRITICAL - 2023-09-10 14:23:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(21): App\Models\M_siswa->join4('data_siswa', 'data_kelas', 'data_ekstrakuli...', 'jenis_kelamin', 'data_siswa.kela...', 'data_siswa.eksk...', 'data_siswa.jeni...')
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:26:50 --> Unknown column 'user_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:26:50 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(125): App\Models\M_siswa->getWhere('data_siswa', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:26:51 --> Unknown column 'user_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:26:51 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(125): App\Models\M_siswa->getWhere('data_siswa', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:26:51 --> Unknown column 'user_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:26:51 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(125): App\Models\M_siswa->getWhere('data_siswa', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:26:52 --> Unknown column 'user_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:26:52 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(125): App\Models\M_siswa->getWhere('data_siswa', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:26:52 --> Unknown column 'user_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:26:52 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(125): App\Models\M_siswa->getWhere('data_siswa', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:26:52 --> Unknown column 'user_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:26:52 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(125): App\Models\M_siswa->getWhere('data_siswa', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-10 14:26:52 --> Unknown column 'user_siswa' in 'where clause'
+CRITICAL - 2023-09-10 14:26:52 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(125): App\Models\M_siswa->getWhere('data_siswa', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 14:27:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(132): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:28:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:28:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:28:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:28:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:28:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:28:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:29:34 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:29:34 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:29:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 14:29:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_siswa\edit.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_siswa/edit', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_siswa.php(137): view('data_siswa/edit', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_siswa->edit('2')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_siswa))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-10 16:35:49 --> Call to undefined method App\Models\M_siswa::join3
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_instruktur.php(19): CodeIgniter\Model->__call('join3', Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_instruktur->index()
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_instruktur))
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-10 17:57:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Views\data_instruktur\edit.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Common.php(1089): CodeIgniter\View\View->render('data_instruktur...', Array, true)
+#4 C:\xampp\htdocs\manajemen-ekstrakulikuler\app\Controllers\Data_instruktur.php(112): view('data_instruktur...', Array)
+#5 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(832): App\Controllers\Data_instruktur->edit('3')
+#6 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_instruktur))
+#7 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\manajemen-ekstrakulikuler\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\manajemen-ekstrakulikuler\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

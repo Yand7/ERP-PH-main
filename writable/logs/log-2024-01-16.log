@@ -1,0 +1,172 @@
+<<<<<<< HEAD
+ERROR - 2024-01-16 09:06:53 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-16 09:06:53 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1710): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-16 09:07:17 --> Invalid argument supplied for foreach()
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Views\uangkas\kelas_fs.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Admini...', 25, Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('uangkas/kelas_f...', Array, true)
+#4 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1719): view('uangkas/kelas_f...')
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#6 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+ERROR - 2024-01-16 09:07:53 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-16 09:07:53 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1710): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-16 09:10:14 --> Invalid file: header.php
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(927): view('header', Array)
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->fine()
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+CRITICAL - 2024-01-16 09:11:43 --> Invalid file: header.php
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1153): view('header', Array)
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->expenditure()
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+ERROR - 2024-01-16 09:13:09 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-16 09:13:09 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1710): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-16 09:22:36 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-16 09:22:36 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1711): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-16 09:23:16 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-16 09:23:16 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1711): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-16 09:23:56 --> Unknown column 'kelas.maker_kelas' in 'on clause'
+CRITICAL - 2024-01-16 09:23:56 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1711): App\Models\uangkas\M_model->fusionOderByWhere('kelas', 'user', 'kelas.maker_kel...', 'tanggal_k', Array)
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->class_fs()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2024-01-16 18:43:27 --> Invalid file: landinpage/header.php
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landinpage/head...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('landinpage/head...', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\landinpage\Home.php(14): view('landinpage/head...')
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->index()
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+=======
+CRITICAL - 2024-01-16 10:44:47 --> Class 'App\Controllers\voting\BaseController' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\Router\Router.php(518): include_once()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('voting')
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('voting')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#7 {main}
+CRITICAL - 2024-01-16 10:45:24 --> Invalid file: header.php
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Home.php(10): view('header')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Home->index()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Home))
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#8 {main}
+CRITICAL - 2024-01-16 11:57:58 --> Class 'App\Models\U_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(809): App\Controllers\voting\User->__construct()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#5 {main}
+CRITICAL - 2024-01-16 12:05:32 --> Class 'App\Models\U_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(809): App\Controllers\voting\User->__construct()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#5 {main}
+CRITICAL - 2024-01-16 12:06:05 --> Class 'App\Models\voting\U_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(809): App\Controllers\voting\User->__construct()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#5 {main}
+CRITICAL - 2024-01-16 12:06:36 --> Class 'App\Controllers\voting\voting\U_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(809): App\Controllers\voting\User->__construct()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#5 {main}
+CRITICAL - 2024-01-16 12:06:52 --> Class 'App\Models\voting\U_model' not found
+#0 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(809): App\Controllers\voting\User->__construct()
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#5 {main}
+CRITICAL - 2024-01-16 12:09:21 --> Invalid file: header.php
+#0 C:\Users\Darrell\Documents\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\User.php(34): view('header')
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\User->index()
+#4 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\User))
+#5 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#8 {main}
+ERROR - 2024-01-16 12:39:29 --> Table 'dbabsensi1.kandidat' doesn't exist
+CRITICAL - 2024-01-16 12:39:29 --> Call to a member function getResult() on bool
+#0 C:\Users\Darrell\Documents\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Darrell\Documents\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Darrell\Documents\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Darrell\Documents\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Darrel...')
+#6 {main}
+>>>>>>> 4a73042259670dc402da759d4a670145f1365646

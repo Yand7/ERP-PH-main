@@ -1,0 +1,252 @@
+ERROR - 2024-04-21 13:18:06 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-04-21 13:18:06 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-04-21 13:25:23 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-04-21 13:25:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-21 13:36:11 --> Invalid file: header.php
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(44): view('header')
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-21 13:37:55 --> Invalid file: isi.php
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('isi.php')
+#1 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('isi', Array, true)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(46): view('isi')
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-21 13:38:01 --> Invalid file: isi.php
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('isi.php')
+#1 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('isi', Array, true)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(46): view('isi')
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-21 13:38:49 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ERP-PH-main\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ERP-PH-main\app\Views\piketv\isi.php(6): CodeIgniter\Model->__call('useRow', Array)
+#3 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('/piketv/isi', Array, true)
+#6 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(46): view('/piketv/isi')
+#7 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#8 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#9 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-04-21 13:39:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ERP-PH-main\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ERP-PH-main\app\Views\piketv\isi.php(6): CodeIgniter\Model->__call('useRow', Array)
+#3 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('/piketv/isi', Array, true)
+#6 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(46): view('/piketv/isi')
+#7 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#8 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#9 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-04-21 13:41:20 --> Class 'App\Models\piketm\M_model' not found
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('/piketv/isi', Array, true)
+#3 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(44): view('/piketv/isi')
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-04-21 13:41:41 --> Class 'App\Models\piketm\M_model' not found
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('/piketv/isi', Array, true)
+#3 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(44): view('/piketv/isi')
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-04-21 14:00:22 --> Invalid file: menilai.php
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menilai.php')
+#1 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('menilai', Array, true)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(68): view('menilai', Array)
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->menilai()
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-04-21 16:07:21 --> Table 'dbabsensi1./data_master/mapel' doesn't exist
+ERROR - 2024-04-21 16:07:55 --> Table 'dbabsensi1./data_master/mapel' doesn't exist
+ERROR - 2024-04-21 16:08:51 --> Table 'dbabsensi1./data_master/mapel' doesn't exist
+ERROR - 2024-04-21 16:09:24 --> Table 'dbabsensi1./data_master/mapel' doesn't exist
+ERROR - 2024-04-21 16:45:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-04-21 16:45:11 --> Uncaught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php:407
+Stack trace:
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Views\errors\html\error_404.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\Page
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-21 17:02:12 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php on line 1129
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php(1129): view('partial/header_...', NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\data_master->edit_kelas('15')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_master))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-21 17:02:37 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php on line 1129
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php(1129): view('partial/header_...', NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\data_master->edit_kelas('15')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_master))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-21 17:04:37 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php on line 1129
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php(1129): view('partial/header_...', NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\data_master->edit_kelas('15')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_master))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-21 17:04:46 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php on line 1129
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php(1129): view('partial/header_...', NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\data_master->edit_kelas('14')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_master))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-21 17:05:12 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php on line 1129
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php(1129): view('partial/header_...', NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\data_master->edit_kelas('15')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_master))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-21 17:14:56 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php on line 1049
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\data_master.php(1049): view('partial/header_...', NULL)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\data_master->tambah_jurusan()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_master))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-04-21 17:20:53 --> Column 'nama_r' cannot be null
+ERROR - 2024-04-21 17:21:49 --> Column 'nama_r' cannot be null
+CRITICAL - 2024-04-21 19:00:18 --> Class 'App\Controllers\landinpage\U_model' not found
+#0 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->user_s()
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-04-21 19:01:13 --> Invalid file: header.php
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Controllers\landinpage\Home.php(70): view('header')
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->user_s()
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-21 19:07:50 --> Class 'App\Controllers\landinpage\H_model' not found
+#0 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->output_selfuser()
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2024-04-21 19:09:14 --> Unknown column 'pw' in 'where clause'
+CRITICAL - 2024-04-21 19:09:14 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\landinpage\Home.php(100): App\Models\landinpage\M_model->getWhere('user', Array)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->checkPassword()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-04-21 19:09:29 --> Unknown column 'pw' in 'where clause'
+CRITICAL - 2024-04-21 19:09:29 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\landinpage\Home.php(100): App\Models\landinpage\M_model->getWhere('user', Array)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->checkPassword()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-04-21 19:21:15 --> Invalid file: header.php
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Controllers\landinpage\Home.php(86): view('header')
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->cpass()
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-21 22:47:43 --> Class 'App\Controllers\piket\H_model' not found
+#0 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->e_jadwal('8')
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2024-04-21 22:48:34 --> Invalid file: header.php
+#0 C:\xampp\htdocs\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(317): view('header')
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->e_jadwal('8')
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-04-21 23:07:06 --> Class 'App\Controllers\piket\H_Model' not found
+#0 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->output_jadwal()
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

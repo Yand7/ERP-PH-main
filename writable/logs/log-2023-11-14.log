@@ -1,0 +1,67 @@
+ERROR - 2023-11-14 07:51:13 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-11-14 07:51:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Views/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/login.php(21): view('partial_login/h...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2023-11-14 07:51:16 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-11-14 07:51:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Views/partial_login/header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/View/View.php(210): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/login.php(21): view('partial_login/h...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-11-14 08:23:56 --> syntax error, unexpected ''nama_siswa'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('data_pendaftara...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_pendaftara...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+ERROR - 2023-11-14 10:42:19 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-11-14 10:42:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\perizinan-siswa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\perizinan-siswa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Views\partial_login\header_login.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('partial_login/h...', Array, true)
+#6 C:\xampp\htdocs\perizinan-siswa\app\Controllers\Login.php(21): view('partial_login/h...', Array)
+#7 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-11-14 11:29:24 --> Unknown column 'nilai.tahun' in 'where clause'
+CRITICAL - 2023-11-14 11:29:24 --> Call to a member function getResult() on bool
+#0 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/app/Controllers/Semest.php(52): App\Models\M_model->getDataNilai2('2', '1', '3', '2')
+#1 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(832): App\Controllers\semest->semester()
+#2 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\semest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/perizinan-siswa/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}

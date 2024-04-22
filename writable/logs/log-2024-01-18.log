@@ -1,0 +1,218 @@
+<<<<<<< HEAD
+ERROR - 2024-01-18 00:01:16 --> Table 'dbuang.data_siswa' doesn't exist
+CRITICAL - 2024-01-18 00:01:16 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\agendapkl\Data_siswa.php(17): App\Models\agendapkl\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\agendapkl\Data_siswa->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\agendapkl\Data_siswa))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:01:18 --> Table 'dbuang.data_siswa' doesn't exist
+CRITICAL - 2024-01-18 00:01:18 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\agendapkl\Data_siswa.php(17): App\Models\agendapkl\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\agendapkl\Data_siswa->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\agendapkl\Data_siswa))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:02:44 --> Table 'dbuang.data_siswa' doesn't exist
+CRITICAL - 2024-01-18 00:02:44 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\agendapkl\Data_siswa.php(17): App\Models\agendapkl\M_siswa->join2('data_siswa', 'data_jurusan', 'data_siswa.juru...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\agendapkl\Data_siswa->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\agendapkl\Data_siswa))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:07 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:07 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:49 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:49 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:50 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:50 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:50 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:50 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:51 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:51 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:51 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:51 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:51 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:51 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:51 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:51 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:51 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:51 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:51 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:51 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+ERROR - 2024-01-18 00:05:52 --> Table 'dbuang.kandidat' doesn't exist
+CRITICAL - 2024-01-18 00:05:52 --> Call to a member function getResult() on bool
+#0 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\voting\Kandidat.php(16): App\Models\voting\K_model->join2('kandidat', 'user', 'user.id_user = ...')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\voting\Kandidat->index()
+#2 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Kandidat))
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+=======
+ERROR - 2024-01-18 09:55:18 --> Error connecting to the database: Unknown database 'dbabsensi1'
+CRITICAL - 2024-01-18 09:55:18 --> Uncaught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi1' in C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php:407
+Stack trace:
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Views\errors\html\error_404.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-01-18 09:55:22 --> Error connecting to the database: Unknown database 'dbabsensi1'
+CRITICAL - 2024-01-18 09:55:22 --> Uncaught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi1' in C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php:407
+Stack trace:
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Views\errors\html\error_404.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-01-18 10:00:14 --> Error connecting to the database: Unknown database 'dbabsensi1'
+CRITICAL - 2024-01-18 10:00:14 --> Uncaught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi1' in C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php:407
+Stack trace:
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Views\errors\html\error_404.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-01-18 10:01:21 --> Error connecting to the database: Unknown database 'dbabsensi1'
+CRITICAL - 2024-01-18 10:01:21 --> Uncaught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbabsensi1' in C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php:407
+Stack trace:
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Views\errors\html\error_404.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-01-18 10:28:48 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-18 10:28:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\uangkas\Home.php(280): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-01-18 10:36:02 --> Call to undefined method App\Controllers\voting\Home::isLoggedIn()
+#0 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\voting\Home->index()
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\voting\Home))
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2024-01-18 11:06:59 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-18 11:06:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ERP-PH-main\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ERP-PH-main\app\Models\piketm\M_model.php(37): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(48): App\Models\piketm\M_model->getWhere('user', Array)
+#4 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-01-18 11:07:41 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-18 11:07:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+>>>>>>> f46e0765d30005191ff0a97fc1b79c62a33cb121
+#6 {main}

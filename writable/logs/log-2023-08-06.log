@@ -1,0 +1,10 @@
+CRITICAL - 2023-08-06 21:52:41 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_agenda_gur...', Array, true)
+#2 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_agenda_guru.php(208): view('data_agenda_gur...', Array)
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda_guru->export_pdf()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda_guru))
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,125 @@
+ERROR - 2024-01-21 12:18:50 --> Unknown column 'rombel' in 'where clause'
+CRITICAL - 2024-01-21 12:18:50 --> Call to a member function getRow() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(489): App\Models\piketm\M_model->tampilWR('rombel', 'data_guru', 'data_guru.rombe...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->murid('2')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 12:20:46 --> Unknown column 'rombel' in 'where clause'
+CRITICAL - 2024-01-21 12:20:46 --> Call to a member function getRow() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(489): App\Models\piketm\M_model->tampilWR('rombel', 'data_guru', 'data_guru.rombe...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->murid('3')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+CRITICAL - 2024-01-21 12:26:47 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\Users\USER\Downloads\ERP-PH-main\app\Models\piketm\M_model.php on line 268 and at least 2 expected
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Models\piketm\M_model.php(268): CodeIgniter\Database\BaseBuilder->join('piket.rombel=ro...')
+#1 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(128): App\Models\piketm\M_model->PiketRombel('2023-09-01', '2024-01-21')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->find2()
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#7 {main}
+CRITICAL - 2024-01-21 12:32:25 --> A non-numeric value encountered
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\USER\\D...', 134, Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->find2()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:22:57 --> Table 'dbabsensi1.data_murid' doesn't exist
+CRITICAL - 2024-01-21 13:22:57 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(641): App\Models\piketm\M_model->filterMURID('data_murid', '1', '1')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->nilai('21')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:33:46 --> Table 'dbabsensi1.data_murid' doesn't exist
+CRITICAL - 2024-01-21 13:33:46 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(641): App\Models\piketm\M_model->filterMURID('data_murid', '1', '1')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->nilai('21')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:34:14 --> Unknown column 'jadwal_piket' in 'where clause'
+CRITICAL - 2024-01-21 13:34:14 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(641): App\Models\piketm\M_model->filterMURID('siswa', '1', '1')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->nilai('21')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:44:21 --> Unknown column 'data_guru.rombel' in 'on clause'
+CRITICAL - 2024-01-21 13:44:21 --> Call to a member function getRow() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(489): App\Models\piketm\M_model->tampilWR('rombel', 'guru', 'data_guru.rombe...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->murid('1')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:45:07 --> Unknown column 'data_guru.rombel' in 'on clause'
+CRITICAL - 2024-01-21 13:45:07 --> Call to a member function getRow() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(489): App\Models\piketm\M_model->tampilWR('rombel', 'guru', 'data_guru.rombe...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->murid('1')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:45:55 --> Table 'dbabsensi1.jabatan' doesn't exist
+CRITICAL - 2024-01-21 13:45:55 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(493): App\Models\piketm\M_model->tampilW('siswa', 'jabatan', 'data_murid.jaba...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->murid('1')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:46:05 --> Table 'dbabsensi1.jabatan' doesn't exist
+CRITICAL - 2024-01-21 13:46:05 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(493): App\Models\piketm\M_model->tampilW('siswa', 'jabatan', 'siswa.jabatan=j...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->murid('1')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:47:17 --> Unknown column 'kelas' in 'where clause'
+CRITICAL - 2024-01-21 13:47:17 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(493): App\Models\piketm\M_model->tampilW('siswa', 'jabatan', 'siswa.jabatan=j...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->murid('1')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 13:55:07 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2024-01-21 13:55:07 --> Call to a member function getRow() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(447): App\Models\piketm\M_model->tampilWR('rombel', 'data_guru', 'data_guru.rombe...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->m_murid2('8')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-21 14:04:31 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2024-01-21 14:04:31 --> Call to a member function getRow() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(447): App\Models\piketm\M_model->tampilWR('rombel', 'data_guru', 'data_guru.rombe...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->m_murid2('8')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}

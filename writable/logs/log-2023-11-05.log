@@ -1,0 +1,100 @@
+ERROR - 2023-11-05 11:32:48 --> Unknown column 'rombel.id_kelas' in 'on clause'
+CRITICAL - 2023-11-05 11:32:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(54): App\Models\M_model->getDataByFilter2('3')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->aksi_nilai()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 11:33:52 --> Unknown column 'rombel.id_kelas' in 'on clause'
+CRITICAL - 2023-11-05 11:33:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(54): App\Models\M_model->getDataByFilter2('3')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->aksi_nilai()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 11:36:57 --> Unknown column 'siswa' in 'field list'
+CRITICAL - 2023-11-05 11:36:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(54): App\Models\M_model->getDataByFilter2('3')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->aksi_nilai()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 11:39:41 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(54): App\Models\M_model->getDataByFilter2('3')
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->aksi_nilai()
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-11-05 11:41:19 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\perizinan-siswa\app\Views\nilai.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('nilai', Array, true)
+#4 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(58): view('nilai', Array)
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->aksi_nilai()
+#6 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#7 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-11-05 12:41:42 --> Object of class App\Models\M_model could not be converted to string
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->simpanDataNilai()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-11-05 12:49:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1
+ERROR - 2023-11-05 12:51:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1
+CRITICAL - 2023-11-05 13:08:26 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(82): count(NULL)
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->aksi_tambah_nilai()
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-11-05 13:14:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\perizinan-siswa\app\Controllers\nilai.php(82): count(NULL)
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\nilai->aksi_tambah_nilai()
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nilai))
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-11-05 13:15:54 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:17:32 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:20:45 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:21:00 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:23:35 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:33:01 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:34:41 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:39:01 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:42:42 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:42:51 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:45:10 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 13:46:50 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 14:10:48 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 14:14:30 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 14:16:29 --> Column 'siswa' cannot be null
+ERROR - 2023-11-05 14:36:30 --> Operand should contain 1 column(s)
+CRITICAL - 2023-11-05 21:14:09 --> Invalid file: partial/footer.php
+#0 C:\xampp\htdocs\perizinan-siswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/footer....')
+#1 C:\xampp\htdocs\perizinan-siswa\system\Common.php(1089): CodeIgniter\View\View->render('partial/footer', Array, true)
+#2 C:\xampp\htdocs\perizinan-siswa\app\Controllers\User.php(48): view('partial/footer')
+#3 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\User->reset_password('8')
+#4 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

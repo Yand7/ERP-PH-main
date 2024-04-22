@@ -1,0 +1,27 @@
+ERROR - 2024-04-12 17:03:16 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2024-04-12 17:03:16 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(447): App\Models\piketm\M_model->tampilWR('rombel', 'data_guru', 'data_guru.rombe...', Array)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->m_murid2('14')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-04-12 17:07:35 --> Table 'dbabsensi1.data_murid' doesn't exist
+CRITICAL - 2024-04-12 17:07:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(452): App\Models\piketm\M_model->tampilW2('data_murid', 'jabatan', 'rombel', 'data_murid.jaba...', 'data_murid.kela...', Array)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->m_murid2('14')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-04-12 17:07:48 --> Unknown column 'guru' in 'where clause'
+CRITICAL - 2024-04-12 17:07:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ERP-PH-main\app\Controllers\piket\Home.php(452): App\Models\piketm\M_model->tampilW2('siswa', 'jabatan', 'rombel', 'siswa.jabatan=j...', 'siswa.kelas=rom...', Array)
+#1 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->m_murid2('14')
+#2 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\xampp\htdocs\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,26 @@
+CRITICAL - 2023-07-21 23:56:23 --> Too few arguments to function App\Controllers\Data_absensi_sekolah::rpl(), 0 passed in C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->rpl()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-21 23:57:15 --> Too few arguments to function App\Controllers\Data_absensi_sekolah::rpl(), 0 passed in C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->rpl()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-21 23:58:13 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Views\data_absensi_sekolah\view.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_se...', Array, true)
+#4 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_sekolah.php(18): view('data_absensi_se...', Array)
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_sekolah->index()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_sekolah))
+#7 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,218 @@
+CRITICAL - 2024-01-20 07:00:18 --> Invalid file: header.php
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(380): view('header', Array)
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->edit_users('1')
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+ERROR - 2024-01-20 07:03:27 --> Unknown column 'nama' in 'field list'
+ERROR - 2024-01-20 08:02:22 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2024-01-20 08:12:23 --> Invalid file: header.php
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1414): view('header', Array)
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->fine_report()
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+CRITICAL - 2024-01-20 08:12:44 --> Invalid file: header.php
+#0 C:\Users\Administrator\Desktop\ERP-PH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\Administrator\Desktop\ERP-PH\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\Administrator\Desktop\ERP-PH\app\Controllers\uangkas\Home.php(1531): view('header', Array)
+#3 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->expenditure_report()
+#4 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#5 C:\Users\Administrator\Desktop\ERP-PH\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Desktop\ERP-PH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Desktop\ERP-PH\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
+ERROR - 2024-01-20 11:36:42 --> Error connecting to the database: Unknown database 'dbuang'
+CRITICAL - 2024-01-20 11:36:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbuang'
+#0 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\USER\Downloads\ERP-PH-main\app\Models\landinpage\M_Model.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\landinpage\Home.php(38): App\Models\landinpage\M_model->getWhere2('user', Array)
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->aksi_login()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#6 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#9 {main}
+ERROR - 2024-01-20 11:38:55 --> Error connecting to the database: Unknown database 'dbuang'
+CRITICAL - 2024-01-20 11:38:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbuang'
+#0 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\USER\Downloads\ERP-PH-main\app\Models\landinpage\M_Model.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\landinpage\Home.php(38): App\Models\landinpage\M_model->getWhere2('user', Array)
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->aksi_login()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#6 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#9 {main}
+ERROR - 2024-01-20 11:39:14 --> Error connecting to the database: Unknown database 'dbuang'
+CRITICAL - 2024-01-20 11:39:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbuang'
+#0 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\USER\Downloads\ERP-PH-main\app\Models\landinpage\M_Model.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\landinpage\Home.php(38): App\Models\landinpage\M_model->getWhere2('user', Array)
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\landinpage\Home->aksi_login()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\landinpage\Home))
+#6 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#9 {main}
+ERROR - 2024-01-20 12:18:54 --> Error connecting to the database: Unknown database 'dbpiket'
+CRITICAL - 2024-01-20 12:18:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpiket'
+#0 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\USER\Downloads\ERP-PH-main\app\Models\piketm\M_model.php(37): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(48): App\Models\piketm\M_model->getWhere('user', Array)
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#6 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#9 {main}
+CRITICAL - 2024-01-20 12:19:14 --> dbpiket is not a valid database connection group.
+#0 C:\Users\USER\Downloads\ERP-PH-main\system\Common.php(312): CodeIgniter\Database\Config::connect('dbpiket', true)
+#1 C:\Users\USER\Downloads\ERP-PH-main\app\Models\piketm\M_model.php(15): db_connect('dbpiket')
+#2 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(44): App\Models\piketm\M_model->__construct()
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
+ERROR - 2024-01-20 12:42:24 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-20 12:42:24 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+CRITICAL - 2024-01-20 12:44:10 --> dbpiket is not a valid database connection group.
+#0 C:\Users\USER\Downloads\ERP-PH-main\system\Common.php(312): CodeIgniter\Database\Config::connect('dbpiket', true)
+#1 C:\Users\USER\Downloads\ERP-PH-main\app\Models\piketm\M_model.php(15): db_connect('dbpiket')
+#2 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(44): App\Models\piketm\M_model->__construct()
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
+ERROR - 2024-01-20 14:41:54 --> Table 'dbabsensi1.log' doesn't exist
+ERROR - 2024-01-20 14:41:59 --> Table 'dbabsensi1.log' doesn't exist
+ERROR - 2024-01-20 14:42:08 --> Table 'dbabsensi1.log' doesn't exist
+CRITICAL - 2024-01-20 14:42:08 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(1247): App\Models\piketm\M_model->tampilOrderByJOIN('log', 'user', 'log.user=user.i...')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->log()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 14:42:09 --> Table 'dbabsensi1.log' doesn't exist
+ERROR - 2024-01-20 14:42:12 --> Table 'dbabsensi1.log' doesn't exist
+ERROR - 2024-01-20 14:42:13 --> Table 'dbabsensi1.log' doesn't exist
+ERROR - 2024-01-20 14:54:46 --> Table 'dbabsensi1.notif' doesn't exist
+CRITICAL - 2024-01-20 14:54:46 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(98): App\Models\piketm\M_model->tampil1('notif', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->mpg()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 14:56:43 --> Table 'dbabsensi1.hari' doesn't exist
+CRITICAL - 2024-01-20 14:56:43 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(525): App\Models\piketm\M_model->tampil('hari')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->penilaian()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 14:57:17 --> Table 'dbabsensi1.hari' doesn't exist
+CRITICAL - 2024-01-20 14:57:17 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(525): App\Models\piketm\M_model->tampil('hari')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->penilaian()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 14:57:40 --> Table 'dbabsensi1.hari' doesn't exist
+CRITICAL - 2024-01-20 14:57:40 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(525): App\Models\piketm\M_model->tampil('hari')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->penilaian()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 14:59:05 --> Table 'dbabsensi1.piket' doesn't exist
+CRITICAL - 2024-01-20 14:59:05 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(1112): App\Models\piketm\M_model->filterJOINR('piket', 'rombel', 'hari', 'piket.rombel=ro...', 'piket.hari=hari...', '2024-01-20', '2024-11-28', '2')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->pdf()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 14:59:39 --> Table 'dbabsensi1.piket' doesn't exist
+CRITICAL - 2024-01-20 14:59:39 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(1092): App\Models\piketm\M_model->filterJOIN('piket', 'rombel', 'hari', 'piket.rombel=ro...', 'piket.hari=hari...', '2022-02-20', '2024-01-20')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->pdf()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 15:00:15 --> Table 'dbabsensi1.hari' doesn't exist
+CRITICAL - 2024-01-20 15:00:15 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(1092): App\Models\piketm\M_model->filterJOIN('piket', 'rombel', 'hari', 'piket.rombel=ro...', 'piket.hari=hari...', '2022-02-20', '2024-01-20')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->pdf()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+CRITICAL - 2024-01-20 15:03:25 --> Invalid file: pdf.php
+#0 C:\Users\USER\Downloads\ERP-PH-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\Common.php(1089): CodeIgniter\View\View->render('pdf', Array, true)
+#2 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(1105): view('pdf', Array)
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->pdf()
+#4 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
+ERROR - 2024-01-20 15:13:56 --> Table 'dbabsensi1.jabatan' doesn't exist
+CRITICAL - 2024-01-20 15:13:56 --> Call to a member function getRow() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\piket\Home.php(883): App\Models\piketm\M_model->joinW2('data_guru', 'user', 'jabatan', 'data_guru.user=...', 'data_guru.jabat...', Array)
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\piket\Home->detail('16')
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\piket\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+ERROR - 2024-01-20 16:56:13 --> Table 'dbabsensi1.uangkas' doesn't exist
+CRITICAL - 2024-01-20 16:56:13 --> Call to a member function getResult() on bool
+#0 C:\Users\USER\Downloads\ERP-PH-main\app\Controllers\uangkas\Home.php(209): App\Models\uangkas\M_model->tampil('uangkas')
+#1 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(832): App\Controllers\uangkas\Home->dashboard()
+#2 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uangkas\Home))
+#3 C:\Users\USER\Downloads\ERP-PH-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Downloads\ERP-PH-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Downloads\ERP-PH-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}

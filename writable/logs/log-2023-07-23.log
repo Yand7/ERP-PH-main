@@ -1,0 +1,302 @@
+CRITICAL - 2023-07-23 11:22:34 --> Too few arguments to function App\Controllers\Data_agenda::index(), 0 passed in C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda->index()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-23 12:17:19 --> Too few arguments to function App\Controllers\Data_agenda::index(), 0 passed in C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda->index()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-23 16:47:42 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_agenda/ind...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_agenda/ind...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 17:08:21 --> Too few arguments to function App\Controllers\Data_agenda::printpdf(), 0 passed in C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda->printpdf()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-23 17:34:50 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_agenda/ind...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_agenda/ind...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 17:41:38 --> Too few arguments to function App\Controllers\Data_agenda::printpdf(), 0 passed in C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_agenda->printpdf()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_agenda))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-23 18:55:31 --> Class 'App\Controllers\M_absensi' not found
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-07-23 18:57:11 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:23 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:49 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:49 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:50 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:50 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:50 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:50 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 18:57:50 --> Table 'agendapkl.karyawan' doesn't exist
+CRITICAL - 2023-07-23 18:57:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(163): App\Models\M_absensi_kantor->tampil('karyawan')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 19:38:17 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Views\data_absensi_kantor\print_pdf_view.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_ka...', Array, true)
+#4 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(196): view('data_absensi_ka...', Array)
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#7 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-07-23 19:57:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `data_absensi_kantor`
+JOIN `data_siswa` ON `data_siswa`.`user_siswa` =...' at line 1
+CRITICAL - 2023-07-23 19:57:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(190): App\Models\M_absensi_kantor->getDataByFilter('27', '2023-07-19', '2023-07-23')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 19:59:22 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-23 19:59:22 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(190): App\Models\M_absensi_kantor->getDataByFilter('27', '2023-07-19', '2023-07-23')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 19:59:26 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-23 19:59:26 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(190): App\Models\M_absensi_kantor->getDataByFilter('27', '2023-07-19', '2023-07-23')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 19:59:40 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-23 19:59:40 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(190): App\Models\M_absensi_kantor->getDataByFilter('27', '2023-07-19', '2023-07-23')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 20:01:29 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-23 20:01:29 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(190): App\Models\M_absensi_kantor->getDataByFilter('27', '2023-07-19', '2023-07-23')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 20:01:35 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-23 20:01:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(190): App\Models\M_absensi_kantor->getDataByFilter('27', '2023-07-19', '2023-07-23')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-23 20:11:33 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2023-07-23 20:11:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(190): App\Models\M_absensi_kantor->getDataByFilter('27', '2023-07-19', '2023-07-23')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->export_pdf()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 21:27:44 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php on line 184
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(184): view('data_absensi_ka...', NULL)
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor1()
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 21:27:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\agendapkl-mazer\app\Views\data_absensi_kantor\print_pdf_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\agendapkl-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_absensi_ka...', Array, true)
+#4 C:\xampp\htdocs\agendapkl-mazer\app\Controllers\Data_absensi_kantor.php(184): view('data_absensi_ka...')
+#5 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor1()
+#6 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#7 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-23 21:28:57 --> Call to a member function getDataByFilter() on null
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor1()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-23 21:30:05 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_absensi_ka...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_absensi_ka...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 21:30:11 --> Call to a member function getDataByFilter() on null
+#0 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(832): App\Controllers\Data_absensi_kantor->menu_print_absensi_kantor1()
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_absensi_kantor))
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-07-23 21:46:21 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-23 23:35:48 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_absensi_ka...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_absensi_ka...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 23:37:33 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_absensi_ka...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_absensi_ka...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 23:37:39 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_absensi_ka...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_absensi_ka...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 23:37:40 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_absensi_ka...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_absensi_ka...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 23:37:42 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_absensi_ka...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_absensi_ka...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-23 23:37:42 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\agendapkl-mazer\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('data_absensi_ka...')
+#1 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('data_absensi_ka...')
+#2 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\agendapkl-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\agendapkl-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\agendapkl-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

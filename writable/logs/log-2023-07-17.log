@@ -1,0 +1,84 @@
+ERROR - 2023-07-17 10:39:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-07-17 10:39:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\agenda-mazer\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\agenda-mazer\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\agenda-mazer\app\Views\partial\header.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\agenda-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\agenda-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\agenda-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/header', Array, true)
+#6 C:\xampp\htdocs\agenda-mazer\app\Controllers\Home.php(9): view('partial/header')
+#7 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\agenda-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\agenda-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-17 10:39:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-07-17 10:39:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\agenda-mazer\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\agenda-mazer\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\agenda-mazer\app\Views\partial\header.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\agenda-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\agenda-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\agenda-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/header', Array, true)
+#6 C:\xampp\htdocs\agenda-mazer\app\Controllers\Home.php(9): view('partial/header')
+#7 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\agenda-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\agenda-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-17 10:40:57 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-07-17 10:40:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\agenda-mazer\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\agenda-mazer\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `favicon...', Array, false)
+#2 C:\xampp\htdocs\agenda-mazer\app\Views\partial\header.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\agenda-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\agenda-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\agenda-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/header', Array, true)
+#6 C:\xampp\htdocs\agenda-mazer\app\Controllers\Home.php(9): view('partial/header')
+#7 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\agenda-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\agenda-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-17 10:41:34 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-07-17 10:41:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\agenda-mazer\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\agenda-mazer\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\agenda-mazer\app\Views\partial\top_menu.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\agenda-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\agenda-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\agenda-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/top_men...', Array, true)
+#6 C:\xampp\htdocs\agenda-mazer\app\Controllers\Home.php(11): view('partial/top_men...')
+#7 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\agenda-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\agenda-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-17 10:53:24 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-07-17 10:53:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\agenda-mazer\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\agenda-mazer\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `logo_pe...', Array, false)
+#2 C:\xampp\htdocs\agenda-mazer\app\Views\partial\side_menu.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\agenda-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\agenda-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\agenda-mazer\system\Common.php(1089): CodeIgniter\View\View->render('partial/side_me...', Array, true)
+#6 C:\xampp\htdocs\agenda-mazer\app\Controllers\Home.php(10): view('partial/side_me...')
+#7 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\agenda-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\agenda-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\agenda-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

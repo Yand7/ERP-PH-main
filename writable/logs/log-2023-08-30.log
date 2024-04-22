@@ -1,0 +1,485 @@
+CRITICAL - 2023-08-30 08:43:03 --> Too few arguments to function App\Controllers\Data_pengguna::edit(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Data_pengguna->edit()
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_pengguna))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2023-08-30 08:43:22 --> syntax error, unexpected '<'
+#0 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial/top_men...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Controllers/Data_perjalanan.php(17): view('partial/top_men...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Data_perjalanan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-08-30 08:44:01 --> syntax error, unexpected '<'
+#0 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial/top_men...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Controllers/Data_perjalanan.php(17): view('partial/top_men...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Data_perjalanan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-08-30 08:44:22 --> syntax error, unexpected '<'
+#0 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Common.php(1089): CodeIgniter\View\View->render('partial/top_men...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/app/Controllers/Data_perjalanan.php(17): view('partial/top_men...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(832): App\Controllers\Data_perjalanan->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#5 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/pencatatanperjalanan-mazer/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2023-08-30 21:29:59 --> Class 'App\Controllers\M_siswa' not found
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Sign_up->aksi_create()
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sign_up))
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-08-30 21:30:15 --> Unknown column 'telpon_siswa' in 'field list'
+ERROR - 2023-08-30 21:31:41 --> Unknown column 'telpon_siswa' in 'field list'
+ERROR - 2023-08-30 21:37:12 --> Unknown column 'telpon_siswa' in 'field list'
+ERROR - 2023-08-30 21:39:33 --> Unknown column 'telpon_siswa' in 'field list'
+CRITICAL - 2023-08-30 21:48:59 --> Too few arguments to function App\Controllers\Data_perjalanan::index(), 0 passed in C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index()
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-08-30 21:50:33 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:50:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('2')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:50:55 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:50:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('2')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:52:51 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:52:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('2')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:54:27 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:54:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:54:29 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:54:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:49 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:50 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:50 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:51 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:51 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:51 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:51 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:51 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:52 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:52 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:56:52 --> Unknown column 'data_pengguna.user' in 'where clause'
+CRITICAL - 2023-08-30 21:56:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(22): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:20 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:57:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:20 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:57:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:21 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:57:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:21 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-08-30 21:57:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:58 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:58 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:58 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:58 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:58 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:59 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:59 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:59 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:57:59 --> Unknown column 'data_pengguna' in 'where clause'
+CRITICAL - 2023-08-30 21:57:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:58:03 --> Unknown column 'data_perjalanan' in 'where clause'
+CRITICAL - 2023-08-30 21:58:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:58:03 --> Unknown column 'data_perjalanan' in 'where clause'
+CRITICAL - 2023-08-30 21:58:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:58:04 --> Unknown column 'data_perjalanan' in 'where clause'
+CRITICAL - 2023-08-30 21:58:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:58:04 --> Unknown column 'data_perjalanan' in 'where clause'
+CRITICAL - 2023-08-30 21:58:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 21:58:04 --> Unknown column 'data_perjalanan' in 'where clause'
+CRITICAL - 2023-08-30 21:58:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(19): App\Models\M_perjalanan->tampil1('data_perjalanan', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->index('7')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-30 22:32:45 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2023-08-30 22:34:39 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2023-08-30 22:36:10 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2023-08-30 22:36:11 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2023-08-30 22:36:12 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-08-30 22:44:04 --> Class 'App\Controllers\M_agenda' not found
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 22:44:12 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:44:13 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:44:13 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:44:13 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:44:13 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:44:13 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:44:14 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:44:14 --> Call to undefined method App\Models\M_perjalanan::tampil_rpl
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(146): CodeIgniter\Model->__call('tampil_rpl', Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->menu_print()
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-30 22:59:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Views\data_perjalanan\print_pdf_view.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_perjalanan...', Array, true)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(178): view('data_perjalanan...', Array)
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->export_pdf()
+#6 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#7 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-30 22:59:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Views\data_perjalanan\print_pdf_view.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_perjalanan...', Array, true)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(178): view('data_perjalanan...', Array)
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->export_pdf()
+#6 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#7 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-30 23:02:11 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Views\data_perjalanan\print_pdf_view.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_perjalanan...', Array, true)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(178): view('data_perjalanan...', Array)
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->export_pdf()
+#6 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#7 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-30 23:02:38 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Views\data_perjalanan\print_pdf_view.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Common.php(1089): CodeIgniter\View\View->render('data_perjalanan...', Array, true)
+#4 C:\xampp\htdocs\pencatatanperjalanan-mazer\app\Controllers\Data_perjalanan.php(178): view('data_perjalanan...', Array)
+#5 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(832): App\Controllers\Data_perjalanan->export_pdf()
+#6 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perjalanan))
+#7 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pencatatanperjalanan-mazer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pencatatanperjalanan-mazer\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

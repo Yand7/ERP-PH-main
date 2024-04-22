@@ -1,0 +1,7 @@
+CRITICAL - 2023-10-26 18:06:34 --> Class 'App\Controllers\Spreadsheet' not found
+#0 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(832): App\Controllers\Data_perizinan->export_excel()
+#1 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_perizinan))
+#2 C:\xampp\htdocs\perizinan-siswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perizinan-siswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perizinan-siswa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
